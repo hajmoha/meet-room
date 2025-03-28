@@ -138,12 +138,12 @@ SITE_ID = 1
 
 # Email configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # یا سرور SMTP دیگری که استفاده می‌کنید
+EMAIL_HOST = 'smtp.gmail.com' 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'sumohast@gmail.com'  # ایمیل شما
-EMAIL_HOST_PASSWORD = 'jpne cswd ghhy ryub'  # رمز عبور ایمیل یا App Password
-DEFAULT_FROM_EMAIL = 'sumohast@gmail.com'  # ایمیل فرستنده
+EMAIL_HOST_USER = 'your_email'  
+EMAIL_HOST_PASSWORD = 'app_pass' 
+DEFAULT_FROM_EMAIL = 'your_email'  
 
 ASGI_APPLICATION = 'myproject.asgi.application'
 
