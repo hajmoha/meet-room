@@ -13,6 +13,8 @@ A comprehensive Django web application for managing and booking meeting rooms wi
 * **Email Notifications:** Send meeting invites and reminders to participants
 * **Admin Dashboard:** Monitor room usage and manage reservations
 * **Responsive Design:** Works on desktop and mobile devices
+* * **Resource Management:** Add equipment booking along with rooms
+* **Advanced Reporting:** Generate usage statistics and reports
 
 
     ![Screenshot From 2025-03-14 21-00-45](https://github.com/user-attachments/assets/f5269610-231a-4e50-bdec-2bb5b9067dd6)
@@ -29,7 +31,7 @@ A comprehensive Django web application for managing and booking meeting rooms wi
 **Installation**
 
 * Clone the repository:
-    * `git clone https://github.com/hajmoha/payam-pardaz.git`
+    * `git clone https://github.com/hajmoha/meet-room.git`
     * `cd payam-pardaz`
 * Create and activate a virtual environment:
     * `python -m venv venv`
@@ -88,8 +90,6 @@ To enable this functionality, configure the email settings in `settings.py`.
 
 * **API Integration:** Build REST API for mobile app integration
 * **Google Calendar Sync:** Allow users to sync with their Google Calendar
-* **Resource Management:** Add equipment booking along with rooms
-* **Advanced Reporting:** Generate usage statistics and reports
 * **Recurring Meetings:** Allow scheduling recurring meetings
 
 
