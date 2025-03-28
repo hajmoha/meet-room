@@ -32,7 +32,7 @@ A comprehensive Django web application for managing and booking meeting rooms wi
 
 * Clone the repository:
     * `git clone https://github.com/hajmoha/meet-room.git`
-    * `cd payam-pardaz`
+    * `cd meet-room`
 * Create and activate a virtual environment:
     * `python -m venv venv`
     * `source venv/bin/activate` # On Windows: venv\Scripts\activate
